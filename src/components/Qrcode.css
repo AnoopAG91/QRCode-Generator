@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+.color-changer {
+    display: flex;
+    gap: 10px;
+}
+.color-changer svg {
+    width: 25px;
+    height: 25px;
+}
+.input-section {
+    display: flex;
+    gap: 5px;
+}
+.input-section input {
+    padding: 2px 5px;
+}
+.input-section button {
+    background-color: #3eba17;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.qrcode-section {
+    border: 2px solid grey;
+    padding: 5px;
+}
+.wrapper h1 {
+    background-color: #f38604;;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
